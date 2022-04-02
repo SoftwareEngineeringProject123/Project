@@ -1,0 +1,34 @@
+________________________FOLDERS
+
+
+CONFIG - where we can place the db
+
+
+
+
+CONTROLLERS - functions that execute
+
+
+
+ROUTES
+
+
+MIDDLEWARE - functions that run when we hit every/any route
+
+
+
+
+________________________RUNNING DATABASE
+
+ADD IMAGES
+
+1. download mongoDB Compass - https://www.mongodb.com/try/download/compass
+
+2. the connection string is - mongodb+srv://softwareengineerproject123:softwareproj123@project.kcguv.mongodb.net/PROJECT
+
+3. paste the connection string into the text box
+
+4. create, update, delete any posts, and on refresh (top left) the DB should populate the changes
+
+
+
