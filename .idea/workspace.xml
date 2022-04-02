@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59da3d85-c854-4509-a5e5-e0c93bf7e8f4" name="Changes" comment="added words">
+    <list default="true" id="59da3d85-c854-4509-a5e5-e0c93bf7e8f4" name="Changes" comment="uploaded everything up until redux">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample1.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2783zPGLmId20h8fjfE3X2EoDRu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,6 +40,8 @@
       <workItem from="1648688149417" duration="8000" />
       <workItem from="1648688327445" duration="98000" />
       <workItem from="1648688825219" duration="100000" />
+      <workItem from="1648856583587" duration="1353000" />
+      <workItem from="1648858382568" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="added words">
       <created>1648688344452</created>
@@ -68,9 +73,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added words" />
-    <option name="LAST_COMMIT_MESSAGE" value="added words" />
+    <MESSAGE value="uploaded everything up until redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="uploaded everything up until redux" />
   </component>
 </project>
