@@ -29,4 +29,5 @@ const connectDB = async () =>{
 
 
 export default connectDB
+// same as above
 // module.exports = { connectDB }

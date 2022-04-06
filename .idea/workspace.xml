@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83cc38ae-a122-4133-b1db-7f11446d9c16" name="Default Changelist" comment="finished Redux!, Form, Create a Post">
+    <list default="true" id="83cc38ae-a122-4133-b1db-7f11446d9c16" name="Default Changelist" comment="correctly added the packages, there were versions not being compatible with React and Material packages.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/db.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +20,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27Dj6LJdi7PnAP9lg2nTXBaHvSy" />
   <component name="ProjectLevelVcsManager">
@@ -51,7 +52,7 @@
       <workItem from="1648879514165" duration="320000" />
       <workItem from="1648945454914" duration="309000" />
       <workItem from="1648945797095" duration="1320000" />
-      <workItem from="1648954591937" duration="3980000" />
+      <workItem from="1649098872533" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="server files">
       <created>1648861628906</created>
@@ -102,14 +103,7 @@
       <option name="project" value="LOCAL" />
       <updated>1648878874940</updated>
     </task>
-    <task id="LOCAL-00008" summary="finished Redux!, Form, Create a Post">
-      <created>1648959219796</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1648959219796</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,44 +117,14 @@
             <State />
           </value>
         </entry>
-        <entry key="ba3928bd-c9ca-47a6-81e9-a9b0eb8d29f2">
-          <value>
-            <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="roots">
-                    <value>
-                      <list>
-                        <option value="$PROJECT_DIR$" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="ba3928bd-c9ca-47a6-81e9-a9b0eb8d29f2" value="TOOL_WINDOW" />
-      </map>
-    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="server files" />
     <MESSAGE value="adding the incrementally as the project is large (memory size)" />
-    <MESSAGE value="finished Redux!, Form, Create a Post" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished Redux!, Form, Create a Post" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the incrementally as the project is large (memory size)" />
   </component>
 </project>
