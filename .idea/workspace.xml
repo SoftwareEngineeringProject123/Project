@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83cc38ae-a122-4133-b1db-7f11446d9c16" name="Default Changelist" comment="updated the port number to 8000 in the .env in the server folder, this the port we'll b using due to issues using port 5000.">
+    <list default="true" id="83cc38ae-a122-4133-b1db-7f11446d9c16" name="Default Changelist" comment="finished posts chapter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/10.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/11.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/7.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +31,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27Dj6LJdi7PnAP9lg2nTXBaHvSy" />
   <component name="ProjectLevelVcsManager">
@@ -56,6 +67,8 @@
       <workItem from="1648945454914" duration="309000" />
       <workItem from="1648945797095" duration="1320000" />
       <workItem from="1649098872533" duration="1251000" />
+      <workItem from="1649525665566" duration="45000" />
+      <workItem from="1649526292490" duration="3143000" />
     </task>
     <task id="LOCAL-00001" summary="server files">
       <created>1648861628906</created>
@@ -106,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648878874940</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fixed route to get to the backend">
+      <created>1649526682496</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649526682496</updated>
+    </task>
+    <task id="LOCAL-00009" summary="finished posts chapter">
+      <created>1649529208551</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1649529208551</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,12 +149,13 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="server files" />
     <MESSAGE value="adding the incrementally as the project is large (memory size)" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the incrementally as the project is large (memory size)" />
+    <MESSAGE value="fixed route to get to the backend" />
+    <MESSAGE value="finished posts chapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished posts chapter" />
   </component>
 </project>
