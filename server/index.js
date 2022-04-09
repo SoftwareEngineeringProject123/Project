@@ -19,8 +19,6 @@ const app = express();
 app.use(bodyParser.json( { limit: '30mb', extended: true } ) ) // allow use to receive things from the body
 app.use(bodyParser.urlencoded( { limit: '30mb', extended: true } ) ) // allow use to receive things from the body
 app.use( cors() );
-
-
                         // ROUTES
 import postRoutes from './routes/posts.js';
 app.use('/posts', postRoutes);
