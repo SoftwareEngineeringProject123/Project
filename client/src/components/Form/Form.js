@@ -1,10 +1,12 @@
 import React, { useState, useEffect} from 'react';
 import { TextField, Button, Typography, Paper } from '@material-ui/core';
+import {AttachFile} from '@material-ui/icons';
 import FileBase from 'react-file-base64';
 import { useDispatch, useSelector } from 'react-redux';
 
 import useStyles from './styles';
 import { createPost, updatePost } from '../../actions/posts';
+import {clickFileUploadButton} from './clickFileInput'
 
                 // receiving the ID's
 const Form = ( { currentId, setCurrentId } )=>{
@@ -47,14 +49,25 @@ const Form = ( { currentId, setCurrentId } )=>{
     }
 
     return (
+
+
         <Paper className={classes.paper}>
+            <script type="text/javascript" src="clickFileInput.js"  />
             <form autoComplete="off" noValidate className={`${classes.root} ${classes.form}`} onSubmit={handleSubmit}>
-                <Typography variant="h6">{ currentId ? 'Edit' : 'Create' } a Memory</Typography>
+                <Typography className={classes.formTitle} variant="h6">{ currentId ? 'Edit' : 'Create' } a SnapShot</Typography>
                 <TextField name="creator" variant="outlined" label="Creator" fullWidth value={postData.creator} onChange={(e) => setPostData({ ...postData, creator: e.target.value })}/>
                 <TextField name="title" variant="outlined" label="Title" fullWidth value={postData.title} onChange={(e) => setPostData({ ...postData, title: e.target.value })}/>
                 <TextField name="message" variant="outlined" label="Message" fullWidth value={postData.message} onChange={(e) => setPostData({ ...postData, message: e.target.value })}/>
                 <TextField name="tags" variant="outlined" label="Tags" fullWidth value={postData.tags} onChange={(e) => setPostData({ ...postData, tags: e.target.value.split(',') })}/>
-                <div className={classes.fileInput}><FileBase type="file" multiple={false} onDone={({base64}) => setPostData({ ...postData, selectedFile: base64 })}/></div>
+                <div  className={classes.fileContainer}>
+                    <div className={classes.buttonWrap}>
+                        <Button id="upload" onClick={ ()=>{ clickFileUploadButton() } } className={classes.button} variant="raised" color="secondary" size="large" fullWidth>Upload File                             <AttachFile className={classes.attachFile}></AttachFile>
+                        </Button>
+                        <div id="fileInputButton" className={classes.fileInput}>
+                            <FileBase type="file" multiple={false} onDone={({base64}) => setPostData({ ...postData, selectedFile: base64 })}/>
+                        </div>
+                    </div>
+                </div>
                 <Button className={classes.buttonSubmit} variant="container" color="primary" size="large" type="submit" fullWidth>Submit</Button>
                 <Button variant="contained" color="secondary" size="small" onClick={clear} fullWidth>Clear</Button>
             </form>
