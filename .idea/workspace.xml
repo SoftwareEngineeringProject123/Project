@@ -1,52 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="83cc38ae-a122-4133-b1db-7f11446d9c16" name="Default Changelist" comment="new changes (color change(s))">
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/1579fba42024fb81b176e6cb397afc0b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/1a2cbc17e9b101ba8b1996e3666c70d4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/2692164402929ade54887aa3f57b0b78.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/40a49330fe343b07b88de30154832d25.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/462925225ef5ce914f47cbca2f36f063.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/4faced63ae83c2c883c9488e61e104da.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/5ce6bca762f43da1a433028190b503b7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/694c16dd8fe402d6a585d89d6d754c9d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/77cf6d6803aa4b9028480c447f07e2a6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/7c1879ec6a6908432af2a8797dc1cd1d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/8c16f5e4906dad2283dfa34686c4a541.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/8f4e03730bdf8708294442209f819acb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/8fb1582063e52496262ed9d318f8da39.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/9b888fd03510ee2dc49dba23900081c1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/aa45d0e1f4405b0f7a7351860f6a6168.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/d7c2d19bc801312da1819592c3f2a807.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/df104fea179c47d12a26ef16f4efa02f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/e673a7caccecd1baf73ff3329e927855.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/20.pack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/21.pack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Form/clickFileInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/11.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/13.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/14.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/16.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/17.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/17.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/18.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/18.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/5.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/9.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Form/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Form/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Posts/Post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Posts/Post/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Posts/Post/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Posts/Post/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles.js" afterDir="false" />
-    </list>
+    <list default="true" id="83cc38ae-a122-4133-b1db-7f11446d9c16" name="Default Changelist" comment="Debugging complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +32,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27Dj6LJdi7PnAP9lg2nTXBaHvSy" />
   <component name="ProjectLevelVcsManager">
@@ -248,7 +209,6 @@
         <entry key="028e9295-f1ec-48d7-8779-1ee20af98b2d" value="TOOL_WINDOW" />
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
