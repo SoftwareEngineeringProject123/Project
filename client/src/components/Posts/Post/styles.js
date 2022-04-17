@@ -71,4 +71,46 @@ export default makeStyles({
 
         color: '#d42850',
     },
+
+
+    /*DARK OPTIONS*/
+
+    darkDetails: {
+        display: 'flex',
+        justifyContent: 'space-between',
+        margin: '20px',
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
+        color: 'rgba(252,252,252,255)'
+    },
+    darkTitle: {
+        padding: '0 16px',
+        fontWeight: 'bold',
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
+        color: 'rgba(252,252,252,255)'
+    },
+    darkMessage: {
+        fontSize: '20px',
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
+        color: 'rgba(252,252,252,255)'
+    },
+
+    darkCard : {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+        borderRadius: '15px',
+        height: '100%',
+        position: 'relative',
+        // boxShadow: '0 2px 20px rgba(0, 0, 0, 0.1)',
+        boxShadow: '0 2px 5px rgba(0,0,0,0.1)'/*#24221f*/,
+        background: 'rgba(35,34,40)',
+    },
+    darkLike: {
+
+        color: 'rgba(252,252,252,255)',
+    },
+
 });

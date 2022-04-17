@@ -80,5 +80,74 @@ export default makeStyles((theme) => ({
 
     attachFile: {
         fontSize: '17px',
+    },
+
+    /*DARK MODE FOR FORM*/
+
+    darkForm: {
+        position: 'relative',
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'center',
+        background: 'rgba(10,7,14)',
+
+    },
+    darkFormTitle: {
+        color: 'rgba(252,252,252,255)',
+        fontWeight: 'bold',
+
+    },
+
+    darkPaper: {
+        padding: theme.spacing(2),
+        boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
+        background: 'rgba(35,34,40)',
+        color:'white'
+
+    },
+
+
+    darkTextFieldCreator: {
+        color: 'white'
+    },
+    darkTextFieldCreatorLabel: {
+
+        color: '#bcbcbc',
+        "&.Mui-focused": {
+            color: '#bcbcbc'
+        },
+    },
+
+    darkTextFieldTitle: {
+        color: 'white'
+    },
+    darkTextFieldTitleLabel: {
+
+        color: '#bcbcbc',
+        "&.Mui-focused": {
+            color: '#bcbcbc'
+        },
+    },
+
+    darkTextFieldMessage: {
+        color: 'white'
+    },
+    darkTextFieldMessageLabel: {
+
+        color: '#bcbcbc',
+        "&.Mui-focused": {
+            color: '#bcbcbc'
+        },
+    },
+
+    darkTextFieldTags: {
+        color: 'white'
+    },
+    darkTextFieldTagsLabel: {
+
+        color: '#bcbcbc',
+        "&.Mui-focused": {
+            color: '#bcbcbc'
+        },
     }
 }));

@@ -24,5 +24,25 @@ export default makeStyles((theme) => ({
         mainContainer: {
             flexDirection: "column-reverse"
         }
-    }
+    },
+
+    /*DRAK OPTIONS*/
+
+    darkAppBar: {
+        borderRadius: 15,
+        margin: '30px 0',
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        // background : 'rgba(22, 22, 51, 0.9)',
+        background: 'rgba(10,7,14)',
+        boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
+
+    },
+    darkHeading: {
+        color: 'rgba(252,252,252,255)',
+        fontWeight: 'bold'
+    },
+
 }));

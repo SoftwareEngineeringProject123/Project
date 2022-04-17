@@ -10,35 +10,45 @@ import { useDispatch } from 'react-redux'
 
 import { deletePost, likePost } from '../../../actions/posts'
 
-const Post = ( { post, setCurrentId } ) => {
+
+
+const Post = ( { post, setCurrentId, isToggled } ) => {
 
     const classes = useStyles();
     const dispatch = useDispatch();
 
-    // something in this return statement is causing an issue
+    let backToTopEdit = () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth"
+        });
+
+        alert(post.createdAt)
+    }
 
     return (
 
-        <Card className={classes.card}>
+        <Card className={isToggled ? classes.card : classes.darkCard}>
             <CardMedia className={classes.media} image={post.selectedFile} title={post.title} />
             <div className={classes.overlay}>
                 <Typography variant="h6">{post.creator}</Typography>
                 <Typography variant="body2">{moment(post.createdAt).fromNow()}</Typography>
             </div>
-            <div className={classes.overlay2}>
-                <Button style={{color: 'white'}} size="small" onClick={() => setCurrentId( post._id ) }>
+            <div  className={classes.overlay2}>
+                <Button id="backToTopEdit" style={{color: 'white'}} size="small" onClick={ () => { backToTopEdit(); setCurrentId( post._id ) } }>
                     <MoreHorizIcon fontSize="default" />
                 </Button>
             </div>
-            <div className={classes.details}>
-                <Typography variant="body2" color="textSecondary">{post.tags.map((tag) => `#${tag} `)}</Typography>
+            <div className={isToggled ? classes.details : classes.darkDetails}>
+                <Typography variant="body2" color="white">{post.tags.map((tag) => `#${tag} `)}</Typography>
             </div>
-                <Typography className={classes.title} variant="h5" gutterBottom>{post.title}</Typography>
+                <Typography className={isToggled ? classes.title : classes.darkTitle} variant="h5" gutterBottom>{post.title}</Typography>
             <CardContent>
-                <Typography className={classes.message} variant="h5" gutterBottom>{post.message}</Typography>
+                <Typography className={isToggled ? classes.message : classes.darkMessage} variant="h5" gutterBottom>{post.message}</Typography>
             </CardContent>
             <CardActions className={classes.cardActions}>
-                <Button className={classes.like} size="small" color="primary" onClick={() => dispatch( likePost(post._id) ) }>
+                <Button className={isToggled ? classes.like : classes.darkLike} size="small" color="primary" onClick={() => dispatch( likePost(post._id) ) }>
                     <ThumbUpAltIcon fontSize="small" />
                     &nbsp; Like &nbsp;
                     {post.likeCount}
@@ -52,5 +62,7 @@ const Post = ( { post, setCurrentId } ) => {
 
     )
 }
+
+// import './backToTopEdit' // take you to the top when you click edit
 
 export default Post

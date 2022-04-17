@@ -40,8 +40,11 @@ export const createPosts = async (req, resp)=>{
 
         await createPost.save(); // save the post into our DB
 
+        // console.log(createPost)
         resp.status(201); // 201 = created , if the post was created
-        resp.json( createPost )
+        resp.json( createPost );
+
+        console.log(createPost.createdAt)
 
     }catch (e) { // if user's new post cannot be saved
 

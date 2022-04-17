@@ -1,51 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83cc38ae-a122-4133-b1db-7f11446d9c16" name="Default Changelist" comment="new changes (color change(s))">
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/1579fba42024fb81b176e6cb397afc0b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/1a2cbc17e9b101ba8b1996e3666c70d4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/2692164402929ade54887aa3f57b0b78.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/40a49330fe343b07b88de30154832d25.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/462925225ef5ce914f47cbca2f36f063.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/4faced63ae83c2c883c9488e61e104da.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/5ce6bca762f43da1a433028190b503b7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/694c16dd8fe402d6a585d89d6d754c9d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/77cf6d6803aa4b9028480c447f07e2a6.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/7c1879ec6a6908432af2a8797dc1cd1d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/8c16f5e4906dad2283dfa34686c4a541.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/8f4e03730bdf8708294442209f819acb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/8fb1582063e52496262ed9d318f8da39.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/9b888fd03510ee2dc49dba23900081c1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/aa45d0e1f4405b0f7a7351860f6a6168.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/d7c2d19bc801312da1819592c3f2a807.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/df104fea179c47d12a26ef16f4efa02f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/babel-loader/e673a7caccecd1baf73ff3329e927855.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/20.pack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/21.pack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Form/clickFileInput.js" afterDir="false" />
+    <list default="true" id="83cc38ae-a122-4133-b1db-7f11446d9c16" name="Default Changelist" comment="Changed the UI">
+      <change afterPath="$PROJECT_DIR$/client/src/ColorToggle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/HandleToggle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/backToTop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ColorToggle/ColorToggle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ColorToggle/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/images/camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/images/camera2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/images/camera3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_9_2022_2_47_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_9_2022_2_47_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_9_2022_3_13_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_9_2022_3_13_PM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/0.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/11.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/13.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/14.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/16.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/17.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/17.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/18.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/18.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/19.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/19.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/20.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/20.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/21.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/21.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/3.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/4.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/5.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/7.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/8.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/9.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Form/Form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Form/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Form/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Posts/Post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Posts/Post/Post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Posts/Post/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Posts/Post/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Posts/Posts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/postMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/postMessage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +57,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -88,7 +86,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/snapshots_project/snapshots_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project - demo" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\DOWNLOADS\JetBrains\WebStorm\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />

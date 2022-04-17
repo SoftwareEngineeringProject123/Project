@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 
-
 const postSchema = mongoose.Schema({ // how a post a structured
 
     title : String, // title of the post
@@ -17,7 +16,7 @@ const postSchema = mongoose.Schema({ // how a post a structured
     createdAt : {
 
         type : Date,
-        default : new Date()
+        default : new Date( Date.now() )
     }
 
 
