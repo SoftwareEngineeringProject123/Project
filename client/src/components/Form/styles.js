@@ -22,12 +22,12 @@ export default makeStyles((theme) => ({
         fontWeight: 'bold'
 
     },
-    fileInput: {
+   /* fileInput: {
         width: '97%',
         margin: '10px 0',
         overflow: 'hidden',
         textOverflow: 'ellipsis',
-    },
+    },*/
     buttonSubmit: {
         marginBottom: 10,
         background: 'black',

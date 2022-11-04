@@ -23,8 +23,6 @@ const Post = ( { post, setCurrentId, isToggled } ) => {
             left: 0,
             behavior: "smooth"
         });
-
-        alert(post.createdAt)
     }
 
     return (

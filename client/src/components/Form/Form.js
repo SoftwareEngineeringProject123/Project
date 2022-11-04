@@ -29,6 +29,7 @@ const Form = ( { currentId, setCurrentId, isToggled } )=>{
     const handleSubmit = (e) => {
         e.preventDefault();
 
+
         if( currentId ){ // if ID is not null dispatch update post
                         // because if you already have an ID that means we'll be updating a current post
 
